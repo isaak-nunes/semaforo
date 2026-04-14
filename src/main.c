@@ -118,8 +118,8 @@ int main(void) {
             case VERDE:
                 k_sleep(K_SECONDS(3)); 
                 pisca(0,255,0, 300, 3);
-                current_state = AMARELO; 
                 k_msleep(30);
+                current_state = AMARELO; 
                 break;
 
             case AMARELO:
